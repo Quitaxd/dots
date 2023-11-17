@@ -1,0 +1,44 @@
+2023-11-14 19:09:04.096 [info] Started initializing default profile extensions in extensions installation folder. file:///home/quitaxd/.vscode-oss/extensions
+2023-11-14 19:09:04.832 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/quitaxd/.vscode-oss/extensions
+2023-11-14 19:09:05.064 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/quitaxd/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/quitaxd/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30053)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30167)
+    at s.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async K.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9535)
+2023-11-14 19:09:20.882 [info] Getting Manifest... brandonkirbyson.vscode-animations
+2023-11-14 19:09:21.194 [info] Installing extension: brandonkirbyson.vscode-animations
+2023-11-14 19:10:42.354 [info] Extension signature verification is not done: brandonkirbyson.vscode-animations
+2023-11-14 19:10:43.576 [info] Extracted extension to file:///home/quitaxd/.vscode-oss/extensions/brandonkirbyson.vscode-animations-2.0.1-universal: brandonkirbyson.vscode-animations
+2023-11-14 19:10:43.584 [info] Renamed to /home/quitaxd/.vscode-oss/extensions/brandonkirbyson.vscode-animations-2.0.1-universal
+2023-11-14 19:10:43.587 [info] Extracting extension completed. brandonkirbyson.vscode-animations
+2023-11-14 19:10:43.620 [info] Extension installed successfully: brandonkirbyson.vscode-animations
+2023-11-14 19:10:43.681 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/quitaxd/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/quitaxd/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30053)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30167)
+    at s.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async K.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9535)
+2023-11-14 19:10:53.166 [info] Getting Manifest... drcika.apc-extension
+2023-11-14 19:10:53.561 [info] Installing extension: drcika.apc-extension
+2023-11-14 19:10:56.911 [info] Extension signature verification is not done: drcika.apc-extension
+2023-11-14 19:10:57.056 [info] Extracted extension to file:///home/quitaxd/.vscode-oss/extensions/drcika.apc-extension-0.3.2-universal: drcika.apc-extension
+2023-11-14 19:10:57.062 [info] Renamed to /home/quitaxd/.vscode-oss/extensions/drcika.apc-extension-0.3.2-universal
+2023-11-14 19:10:57.067 [info] Extracting extension completed. drcika.apc-extension
+2023-11-14 19:10:57.102 [info] Extension installed successfully: drcika.apc-extension
+2023-11-14 19:10:57.116 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/quitaxd/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/quitaxd/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30053)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30167)
+    at s.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async K.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9535)
+2023-11-14 19:11:19.537 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/quitaxd/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/quitaxd/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30053)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30167)
+    at s.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async K.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9535)

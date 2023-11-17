@@ -1,0 +1,1137 @@
+16:35:33.787: Platform: Wayland
+16:35:33.787: CPU Name: Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz
+16:35:33.787: CPU Speed: 3526.343MHz
+16:35:33.787: Physical Cores: 4, Logical Cores: 4
+16:35:33.787: Physical Memory: 7900MB Total, 3736MB Free
+16:35:33.787: Kernel Version: Linux 6.6.1-arch1-1
+16:35:33.787: Distribution: "EndeavourOS" Unknown
+16:35:33.787: Desktop Environment: Hyprland ()
+16:35:33.787: Session Type: wayland
+16:35:33.789: Qt Version: 6.6.0 (runtime), 6.6.0 (compiled)
+16:35:33.789: Portable mode: false
+16:35:33.832: OBS 30.0.0-1 (linux)
+16:35:33.832: ---------------------------------
+16:35:33.832: ---------------------------------
+16:35:33.832: audio settings reset:
+16:35:33.832: 	samples per sec: 48000
+16:35:33.832: 	speakers:        2
+16:35:33.832: 	max buffering:   960 milliseconds
+16:35:33.832: 	buffering type:  dynamically increasing
+16:35:33.834: ---------------------------------
+16:35:33.834: Initializing OpenGL...
+16:35:33.834: Using EGL/Wayland
+16:35:33.847: Initialized EGL 1.5
+16:35:33.862: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 750 Ti/PCIe/SSE2
+16:35:33.862: OpenGL loaded successfully, version 3.3.0 NVIDIA 545.29.02, shading language 3.30 NVIDIA via Cg compiler
+16:35:33.890: ---------------------------------
+16:35:33.890: video settings reset:
+16:35:33.890: 	base resolution:   1920x1080
+16:35:33.890: 	output resolution: 1920x1080
+16:35:33.890: 	downscale filter:  Bicubic
+16:35:33.890: 	fps:               60/1
+16:35:33.890: 	format:            NV12
+16:35:33.890: 	YUV mode:          Rec. 709/Partial
+16:35:33.891: NV12 texture support not available
+16:35:33.891: P010 texture support not available
+16:35:33.891: Audio monitoring device:
+16:35:33.891: 	name: Default
+16:35:33.891: 	id: default
+16:35:33.891: ---------------------------------
+16:35:33.899: Failed to load 'en-US' text for module: 'decklink-captions.so'
+16:35:33.906: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+16:35:33.913: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+16:35:33.913: Failed to initialize module 'decklink.so'
+16:35:34.044: [pipewire] Available captures:
+16:35:34.044: [pipewire]     - Desktop capture
+16:35:34.044: [pipewire]     - Window capture
+16:35:34.064: v4l2loopback not installed, virtual camera disabled
+16:35:34.081: NVENC supported
+16:35:34.081: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+16:35:34.081: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+16:35:34.081: FFmpeg VAAPI H264 encoding not supported
+16:35:34.081: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+16:35:34.081: FFmpeg VAAPI HEVC encoding not supported
+16:35:34.153: ---------------------------------
+16:35:34.153:   Loaded Modules:
+16:35:34.153:     text-freetype2.so
+16:35:34.153:     rtmp-services.so
+16:35:34.153:     obs-x264.so
+16:35:34.153:     obs-vst.so
+16:35:34.153:     obs-transitions.so
+16:35:34.153:     obs-qsv11.so
+16:35:34.153:     obs-outputs.so
+16:35:34.153:     obs-libfdk.so
+16:35:34.153:     obs-filters.so
+16:35:34.153:     obs-ffmpeg.so
+16:35:34.153:     linux-v4l2.so
+16:35:34.153:     linux-pulseaudio.so
+16:35:34.153:     linux-pipewire.so
+16:35:34.153:     linux-jack.so
+16:35:34.153:     linux-capture.so
+16:35:34.153:     linux-alsa.so
+16:35:34.153:     image-source.so
+16:35:34.153:     frontend-tools.so
+16:35:34.153:     decklink-output-ui.so
+16:35:34.153:     decklink-captions.so
+16:35:34.153: ---------------------------------
+16:35:34.153: ==== Startup complete ===============================================
+16:35:34.199: All scene data cleared
+16:35:34.199: ------------------------------------------------
+16:35:34.204: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.84) 15.0.0'
+16:35:34.204: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+16:35:34.204: pulse-input: Started recording from 'easyeffects_sink.monitor'
+16:35:34.204: [Loaded global audio device]: 'Desktop Audio'
+16:35:34.205: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.84) 15.0.0'
+16:35:34.205: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+16:35:34.205: pulse-input: Started recording from 'easyeffects_source'
+16:35:34.205: [Loaded global audio device]: 'Mic/Aux'
+16:35:34.205: PipeWire initialized
+16:35:34.206: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.84) 15.0.0'
+16:35:34.206: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+16:35:34.206: pulse-input: Started recording from 'alsa_output.usb-0c76_USB_PnP_Audio_Device-00.analog-stereo.monitor' (default)
+16:35:34.207: Switched to scene 'Scene'
+16:35:34.207: ------------------------------------------------
+16:35:34.207: Loaded scenes:
+16:35:34.207: - scene 'Scene':
+16:35:34.207:     - source: 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source)
+16:35:34.207:     - source: 'Audio Output Capture (PulseAudio)' (pulse_output_capture)
+16:35:34.207: ------------------------------------------------
+16:35:34.266: [pipewire] Screencast session created
+16:35:34.772: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+16:35:34.772: 
+16:35:50.508: [pipewire] Asking for desktop
+16:35:50.624: [pipewire] Failed to start screencast, denied or cancelled by user
+16:35:54.684: ---------------------------------
+16:35:54.684: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:35:54.684: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:35:54.684: 	rate_control: CQP
+16:35:54.684: 	bitrate:      0
+16:35:54.684: 	cqp:          23
+16:35:54.684: 	keyint:       250
+16:35:54.684: 	preset:       p5
+16:35:54.684: 	tuning:       hq
+16:35:54.684: 	multipass:    qres
+16:35:54.684: 	profile:      high
+16:35:54.684: 	width:        1920
+16:35:54.684: 	height:       1080
+16:35:54.684: 	b-frames:     2
+16:35:54.684: 	psycho-aq:    1
+16:35:54.684: 	GPU:          0
+16:35:54.684: 
+16:35:54.789: libfdk_aac encoder created
+16:35:54.789: libfdk_aac bitrate: 192, channels: 2
+16:35:54.817: ==== Recording Start ===============================================
+16:35:54.817: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-35-54.mkv'...
+16:35:54.821: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:35:56.282: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-35-54.mkv' stopped
+16:35:56.283: Output 'simple_file_output': stopping
+16:35:56.283: Output 'simple_file_output': Total frames output: 78
+16:35:56.283: Output 'simple_file_output': Total drawn frames: 88
+16:35:56.283: ==== Recording Stop ================================================
+16:35:56.342: libfdk_aac encoder destroyed
+16:37:28.858: User Removed source 'Audio Output Capture (PulseAudio)' (pulse_output_capture) from scene 'Scene'
+16:37:28.875: pulse-input: Stopped recording from 'alsa_output.usb-0c76_USB_PnP_Audio_Device-00.analog-stereo.monitor'
+16:37:28.875: pulse-input: Got 4585 packets with 5502000 frames
+16:37:39.956: ---------------------------------
+16:37:39.956: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:37:39.956: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:37:39.956: 	rate_control: CQP
+16:37:39.956: 	bitrate:      0
+16:37:39.956: 	cqp:          23
+16:37:39.956: 	keyint:       250
+16:37:39.956: 	preset:       p5
+16:37:39.956: 	tuning:       hq
+16:37:39.956: 	multipass:    qres
+16:37:39.956: 	profile:      high
+16:37:39.956: 	width:        1920
+16:37:39.956: 	height:       1080
+16:37:39.956: 	b-frames:     2
+16:37:39.956: 	psycho-aq:    1
+16:37:39.956: 	GPU:          0
+16:37:39.956: 
+16:37:40.051: libfdk_aac encoder created
+16:37:40.051: libfdk_aac bitrate: 192, channels: 2
+16:37:40.052: ==== Recording Start ===============================================
+16:37:40.053: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-37-39.mkv'...
+16:37:40.055: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:37:42.690: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-37-39.mkv' stopped
+16:37:42.690: Output 'simple_file_output': stopping
+16:37:42.690: Output 'simple_file_output': Total frames output: 147
+16:37:42.690: Output 'simple_file_output': Total drawn frames: 158
+16:37:42.690: ==== Recording Stop ================================================
+16:37:42.746: libfdk_aac encoder destroyed
+16:37:51.427: ---------------------------------
+16:37:51.427: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:37:51.427: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:37:51.427: 	rate_control: CQP
+16:37:51.427: 	bitrate:      0
+16:37:51.427: 	cqp:          23
+16:37:51.427: 	keyint:       250
+16:37:51.427: 	preset:       p5
+16:37:51.427: 	tuning:       hq
+16:37:51.427: 	multipass:    qres
+16:37:51.427: 	profile:      high
+16:37:51.427: 	width:        1920
+16:37:51.427: 	height:       1080
+16:37:51.427: 	b-frames:     2
+16:37:51.427: 	psycho-aq:    1
+16:37:51.427: 	GPU:          0
+16:37:51.427: 
+16:37:51.527: libfdk_aac encoder created
+16:37:51.527: libfdk_aac bitrate: 192, channels: 2
+16:37:51.528: ==== Recording Start ===============================================
+16:37:51.528: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-37-51.mkv'...
+16:37:51.531: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:37:59.916: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-37-51.mkv' stopped
+16:37:59.916: Output 'simple_file_output': stopping
+16:37:59.916: Output 'simple_file_output': Total frames output: 491
+16:37:59.916: Output 'simple_file_output': Total drawn frames: 503
+16:37:59.917: ==== Recording Stop ================================================
+16:37:59.973: libfdk_aac encoder destroyed
+16:38:22.147: ---------------------------------
+16:38:22.148: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:38:22.148: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:38:22.148: 	rate_control: CQP
+16:38:22.148: 	bitrate:      0
+16:38:22.148: 	cqp:          23
+16:38:22.148: 	keyint:       250
+16:38:22.148: 	preset:       p5
+16:38:22.148: 	tuning:       hq
+16:38:22.148: 	multipass:    qres
+16:38:22.148: 	profile:      high
+16:38:22.148: 	width:        1920
+16:38:22.148: 	height:       1080
+16:38:22.148: 	b-frames:     2
+16:38:22.148: 	psycho-aq:    1
+16:38:22.148: 	GPU:          0
+16:38:22.148: 
+16:38:22.245: libfdk_aac encoder created
+16:38:22.245: libfdk_aac bitrate: 192, channels: 2
+16:38:22.247: ==== Recording Start ===============================================
+16:38:22.247: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-38-22.mkv'...
+16:38:22.249: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:38:23.799: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-38-22.mkv' stopped
+16:38:23.799: Output 'simple_file_output': stopping
+16:38:23.799: Output 'simple_file_output': Total frames output: 81
+16:38:23.799: Output 'simple_file_output': Total drawn frames: 93
+16:38:23.799: ==== Recording Stop ================================================
+16:38:23.861: libfdk_aac encoder destroyed
+16:38:33.897: ---------------------------------
+16:38:33.897: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:38:33.897: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:38:33.897: 	rate_control: CQP
+16:38:33.897: 	bitrate:      0
+16:38:33.897: 	cqp:          23
+16:38:33.897: 	keyint:       250
+16:38:33.897: 	preset:       p5
+16:38:33.897: 	tuning:       hq
+16:38:33.897: 	multipass:    qres
+16:38:33.897: 	profile:      high
+16:38:33.897: 	width:        1920
+16:38:33.897: 	height:       1080
+16:38:33.897: 	b-frames:     2
+16:38:33.897: 	psycho-aq:    1
+16:38:33.897: 	GPU:          0
+16:38:33.897: 
+16:38:33.989: libfdk_aac encoder created
+16:38:33.989: libfdk_aac bitrate: 192, channels: 2
+16:38:33.991: ==== Recording Start ===============================================
+16:38:33.991: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-38-33.mkv'...
+16:38:33.995: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:38:50.683: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-38-33.mkv' stopped
+16:38:50.683: Output 'simple_file_output': stopping
+16:38:50.683: Output 'simple_file_output': Total frames output: 990
+16:38:50.683: Output 'simple_file_output': Total drawn frames: 1002
+16:38:50.684: ==== Recording Stop ================================================
+16:38:50.743: libfdk_aac encoder destroyed
+16:39:10.938: ---------------------------------
+16:39:10.938: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:39:10.938: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:39:10.938: 	rate_control: CQP
+16:39:10.938: 	bitrate:      0
+16:39:10.938: 	cqp:          23
+16:39:10.938: 	keyint:       250
+16:39:10.938: 	preset:       p5
+16:39:10.938: 	tuning:       hq
+16:39:10.938: 	multipass:    qres
+16:39:10.938: 	profile:      high
+16:39:10.938: 	width:        1920
+16:39:10.938: 	height:       1080
+16:39:10.938: 	b-frames:     2
+16:39:10.938: 	psycho-aq:    1
+16:39:10.938: 	GPU:          0
+16:39:10.938: 
+16:39:11.034: libfdk_aac encoder created
+16:39:11.034: libfdk_aac bitrate: 192, channels: 2
+16:39:11.036: ==== Recording Start ===============================================
+16:39:11.036: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-39-10.mkv'...
+16:39:11.038: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:39:14.782: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-39-10.mkv' stopped
+16:39:14.782: Output 'simple_file_output': stopping
+16:39:14.782: Output 'simple_file_output': Total frames output: 213
+16:39:14.782: Output 'simple_file_output': Total drawn frames: 225
+16:39:14.783: ==== Recording Stop ================================================
+16:39:14.845: libfdk_aac encoder destroyed
+16:39:37.279: ---------------------------------
+16:39:37.279: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:39:37.279: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:39:37.279: 	rate_control: CQP
+16:39:37.279: 	bitrate:      0
+16:39:37.279: 	cqp:          23
+16:39:37.279: 	keyint:       250
+16:39:37.279: 	preset:       p5
+16:39:37.279: 	tuning:       hq
+16:39:37.279: 	multipass:    qres
+16:39:37.279: 	profile:      high
+16:39:37.279: 	width:        1920
+16:39:37.279: 	height:       1080
+16:39:37.279: 	b-frames:     2
+16:39:37.279: 	psycho-aq:    1
+16:39:37.279: 	GPU:          0
+16:39:37.279: 
+16:39:37.372: libfdk_aac encoder created
+16:39:37.372: libfdk_aac bitrate: 192, channels: 2
+16:39:37.374: ==== Recording Start ===============================================
+16:39:37.374: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-39-37.mkv'...
+16:39:37.377: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:39:41.650: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-39-37.mkv' stopped
+16:39:41.650: Output 'simple_file_output': stopping
+16:39:41.650: Output 'simple_file_output': Total frames output: 245
+16:39:41.650: Output 'simple_file_output': Total drawn frames: 257
+16:39:41.651: ==== Recording Stop ================================================
+16:39:41.714: libfdk_aac encoder destroyed
+16:40:01.087: ---------------------------------
+16:40:01.087: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:40:01.087: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:40:01.087: 	rate_control: CQP
+16:40:01.087: 	bitrate:      0
+16:40:01.087: 	cqp:          23
+16:40:01.087: 	keyint:       250
+16:40:01.087: 	preset:       p5
+16:40:01.087: 	tuning:       hq
+16:40:01.087: 	multipass:    qres
+16:40:01.087: 	profile:      high
+16:40:01.087: 	width:        1920
+16:40:01.087: 	height:       1080
+16:40:01.087: 	b-frames:     2
+16:40:01.087: 	psycho-aq:    1
+16:40:01.087: 	GPU:          0
+16:40:01.087: 
+16:40:01.185: libfdk_aac encoder created
+16:40:01.185: libfdk_aac bitrate: 192, channels: 2
+16:40:01.186: ==== Recording Start ===============================================
+16:40:01.186: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-40-01.mkv'...
+16:40:01.191: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:40:04.584: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-40-01.mkv' stopped
+16:40:04.584: Output 'simple_file_output': stopping
+16:40:04.584: Output 'simple_file_output': Total frames output: 192
+16:40:04.584: Output 'simple_file_output': Total drawn frames: 204
+16:40:04.585: ==== Recording Stop ================================================
+16:40:04.642: libfdk_aac encoder destroyed
+16:40:17.012: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+16:40:17.012: 
+16:40:32.871: ---------------------------------
+16:40:32.871: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:40:32.871: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:40:32.871: 	rate_control: CQP
+16:40:32.871: 	bitrate:      0
+16:40:32.871: 	cqp:          23
+16:40:32.871: 	keyint:       250
+16:40:32.871: 	preset:       p5
+16:40:32.871: 	tuning:       hq
+16:40:32.871: 	multipass:    qres
+16:40:32.871: 	profile:      high
+16:40:32.871: 	width:        1920
+16:40:32.871: 	height:       1080
+16:40:32.871: 	b-frames:     2
+16:40:32.871: 	psycho-aq:    1
+16:40:32.871: 	GPU:          0
+16:40:32.871: 
+16:40:32.965: libfdk_aac encoder created
+16:40:32.965: libfdk_aac bitrate: 192, channels: 2
+16:40:32.967: ==== Recording Start ===============================================
+16:40:32.967: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-40-32.mkv'...
+16:40:32.969: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:40:34.332: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-40-32.mkv' stopped
+16:40:34.332: Output 'simple_file_output': stopping
+16:40:34.332: Output 'simple_file_output': Total frames output: 70
+16:40:34.332: Output 'simple_file_output': Total drawn frames: 82
+16:40:34.333: ==== Recording Stop ================================================
+16:40:34.404: libfdk_aac encoder destroyed
+16:40:37.799: ---------------------------------
+16:40:37.799: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:40:37.799: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:40:37.799: 	rate_control: CQP
+16:40:37.799: 	bitrate:      0
+16:40:37.799: 	cqp:          23
+16:40:37.799: 	keyint:       250
+16:40:37.799: 	preset:       p5
+16:40:37.799: 	tuning:       hq
+16:40:37.799: 	multipass:    qres
+16:40:37.799: 	profile:      high
+16:40:37.799: 	width:        1920
+16:40:37.799: 	height:       1080
+16:40:37.799: 	b-frames:     2
+16:40:37.799: 	psycho-aq:    1
+16:40:37.799: 	GPU:          0
+16:40:37.799: 
+16:40:37.895: libfdk_aac encoder created
+16:40:37.895: libfdk_aac bitrate: 192, channels: 2
+16:40:37.897: ==== Recording Start ===============================================
+16:40:37.897: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-40-37.mkv'...
+16:40:37.899: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:40:43.818: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-40-37.mkv' stopped
+16:40:43.818: Output 'simple_file_output': stopping
+16:40:43.818: Output 'simple_file_output': Total frames output: 343
+16:40:43.818: Output 'simple_file_output': Total drawn frames: 355
+16:40:43.818: ==== Recording Stop ================================================
+16:40:43.887: libfdk_aac encoder destroyed
+16:40:58.956: ---------------------------------
+16:40:58.956: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:40:58.956: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:40:58.956: 	rate_control: CQP
+16:40:58.956: 	bitrate:      0
+16:40:58.956: 	cqp:          23
+16:40:58.956: 	keyint:       250
+16:40:58.956: 	preset:       p5
+16:40:58.956: 	tuning:       hq
+16:40:58.956: 	multipass:    qres
+16:40:58.956: 	profile:      high
+16:40:58.956: 	width:        1920
+16:40:58.956: 	height:       1080
+16:40:58.956: 	b-frames:     2
+16:40:58.956: 	psycho-aq:    1
+16:40:58.956: 	GPU:          0
+16:40:58.956: 
+16:40:59.049: libfdk_aac encoder created
+16:40:59.049: libfdk_aac bitrate: 192, channels: 2
+16:40:59.050: ==== Recording Start ===============================================
+16:40:59.050: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-40-58.mkv'...
+16:40:59.053: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:41:00.632: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-40-58.mkv' stopped
+16:41:00.632: Output 'simple_file_output': stopping
+16:41:00.632: Output 'simple_file_output': Total frames output: 83
+16:41:00.632: Output 'simple_file_output': Total drawn frames: 95
+16:41:00.632: ==== Recording Stop ================================================
+16:41:00.699: libfdk_aac encoder destroyed
+16:41:04.443: ---------------------------------
+16:41:04.443: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:41:04.443: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:41:04.443: 	rate_control: CQP
+16:41:04.443: 	bitrate:      0
+16:41:04.443: 	cqp:          23
+16:41:04.443: 	keyint:       250
+16:41:04.443: 	preset:       p5
+16:41:04.443: 	tuning:       hq
+16:41:04.443: 	multipass:    qres
+16:41:04.443: 	profile:      high
+16:41:04.443: 	width:        1920
+16:41:04.443: 	height:       1080
+16:41:04.443: 	b-frames:     2
+16:41:04.443: 	psycho-aq:    1
+16:41:04.443: 	GPU:          0
+16:41:04.443: 
+16:41:04.536: libfdk_aac encoder created
+16:41:04.536: libfdk_aac bitrate: 192, channels: 2
+16:41:04.538: ==== Recording Start ===============================================
+16:41:04.538: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-41-04.mkv'...
+16:41:04.540: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:41:11.315: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-41-04.mkv' stopped
+16:41:11.315: Output 'simple_file_output': stopping
+16:41:11.315: Output 'simple_file_output': Total frames output: 395
+16:41:11.315: Output 'simple_file_output': Total drawn frames: 407
+16:41:11.316: ==== Recording Stop ================================================
+16:41:11.380: libfdk_aac encoder destroyed
+16:41:25.519: ---------------------------------
+16:41:25.520: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:41:25.520: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:41:25.520: 	rate_control: CQP
+16:41:25.520: 	bitrate:      0
+16:41:25.520: 	cqp:          23
+16:41:25.520: 	keyint:       250
+16:41:25.520: 	preset:       p5
+16:41:25.520: 	tuning:       hq
+16:41:25.520: 	multipass:    qres
+16:41:25.520: 	profile:      high
+16:41:25.520: 	width:        1920
+16:41:25.520: 	height:       1080
+16:41:25.520: 	b-frames:     2
+16:41:25.520: 	psycho-aq:    1
+16:41:25.520: 	GPU:          0
+16:41:25.520: 
+16:41:25.614: libfdk_aac encoder created
+16:41:25.614: libfdk_aac bitrate: 192, channels: 2
+16:41:25.615: ==== Recording Start ===============================================
+16:41:25.615: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-41-25.mkv'...
+16:41:25.618: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:41:29.249: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-41-25.mkv' stopped
+16:41:29.249: Output 'simple_file_output': stopping
+16:41:29.249: Output 'simple_file_output': Total frames output: 206
+16:41:29.249: Output 'simple_file_output': Total drawn frames: 218
+16:41:29.250: ==== Recording Stop ================================================
+16:41:29.314: libfdk_aac encoder destroyed
+16:41:42.740: ---------------------------------
+16:41:42.740: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:41:42.740: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:41:42.740: 	rate_control: CQP
+16:41:42.740: 	bitrate:      0
+16:41:42.740: 	cqp:          23
+16:41:42.740: 	keyint:       250
+16:41:42.740: 	preset:       p5
+16:41:42.740: 	tuning:       hq
+16:41:42.740: 	multipass:    qres
+16:41:42.740: 	profile:      high
+16:41:42.740: 	width:        1920
+16:41:42.740: 	height:       1080
+16:41:42.740: 	b-frames:     2
+16:41:42.740: 	psycho-aq:    1
+16:41:42.740: 	GPU:          0
+16:41:42.740: 
+16:41:42.839: libfdk_aac encoder created
+16:41:42.839: libfdk_aac bitrate: 192, channels: 2
+16:41:42.841: ==== Recording Start ===============================================
+16:41:42.841: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-41-42.mkv'...
+16:41:42.844: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:41:45.333: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-41-42.mkv' stopped
+16:41:45.333: Output 'simple_file_output': stopping
+16:41:45.333: Output 'simple_file_output': Total frames output: 138
+16:41:45.333: Output 'simple_file_output': Total drawn frames: 150
+16:41:45.333: ==== Recording Stop ================================================
+16:41:45.399: libfdk_aac encoder destroyed
+16:42:24.355: ---------------------------------
+16:42:24.355: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:42:24.355: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:42:24.355: 	rate_control: CQP
+16:42:24.355: 	bitrate:      0
+16:42:24.355: 	cqp:          23
+16:42:24.355: 	keyint:       250
+16:42:24.355: 	preset:       p5
+16:42:24.355: 	tuning:       hq
+16:42:24.355: 	multipass:    qres
+16:42:24.355: 	profile:      high
+16:42:24.355: 	width:        1920
+16:42:24.355: 	height:       1080
+16:42:24.355: 	b-frames:     2
+16:42:24.355: 	psycho-aq:    1
+16:42:24.355: 	GPU:          0
+16:42:24.355: 
+16:42:24.447: libfdk_aac encoder created
+16:42:24.447: libfdk_aac bitrate: 192, channels: 2
+16:42:24.449: ==== Recording Start ===============================================
+16:42:24.449: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-42-24.mkv'...
+16:42:24.451: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:42:30.747: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-42-24.mkv' stopped
+16:42:30.747: Output 'simple_file_output': stopping
+16:42:30.747: Output 'simple_file_output': Total frames output: 366
+16:42:30.747: Output 'simple_file_output': Total drawn frames: 378
+16:42:30.747: ==== Recording Stop ================================================
+16:42:30.806: libfdk_aac encoder destroyed
+16:42:55.938: ---------------------------------
+16:42:55.939: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:42:55.939: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:42:55.939: 	rate_control: CQP
+16:42:55.939: 	bitrate:      0
+16:42:55.939: 	cqp:          23
+16:42:55.939: 	keyint:       250
+16:42:55.939: 	preset:       p5
+16:42:55.939: 	tuning:       hq
+16:42:55.939: 	multipass:    qres
+16:42:55.939: 	profile:      high
+16:42:55.939: 	width:        1920
+16:42:55.939: 	height:       1080
+16:42:55.939: 	b-frames:     2
+16:42:55.939: 	psycho-aq:    1
+16:42:55.939: 	GPU:          0
+16:42:55.939: 
+16:42:56.030: libfdk_aac encoder created
+16:42:56.030: libfdk_aac bitrate: 192, channels: 2
+16:42:56.032: ==== Recording Start ===============================================
+16:42:56.032: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-42-55.mkv'...
+16:42:56.034: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:42:58.082: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-42-55.mkv' stopped
+16:42:58.082: Output 'simple_file_output': stopping
+16:42:58.082: Output 'simple_file_output': Total frames output: 111
+16:42:58.082: Output 'simple_file_output': Total drawn frames: 123
+16:42:58.084: ==== Recording Stop ================================================
+16:42:58.143: libfdk_aac encoder destroyed
+16:43:26.943: ---------------------------------
+16:43:26.943: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:43:26.943: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:43:26.943: 	rate_control: CQP
+16:43:26.943: 	bitrate:      0
+16:43:26.943: 	cqp:          23
+16:43:26.943: 	keyint:       250
+16:43:26.943: 	preset:       p5
+16:43:26.943: 	tuning:       hq
+16:43:26.943: 	multipass:    qres
+16:43:26.943: 	profile:      high
+16:43:26.943: 	width:        1920
+16:43:26.943: 	height:       1080
+16:43:26.943: 	b-frames:     2
+16:43:26.943: 	psycho-aq:    1
+16:43:26.943: 	GPU:          0
+16:43:26.943: 
+16:43:27.035: libfdk_aac encoder created
+16:43:27.035: libfdk_aac bitrate: 192, channels: 2
+16:43:27.036: ==== Recording Start ===============================================
+16:43:27.036: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-43-26.mkv'...
+16:43:27.039: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:43:30.467: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-43-26.mkv' stopped
+16:43:30.467: Output 'simple_file_output': stopping
+16:43:30.467: Output 'simple_file_output': Total frames output: 195
+16:43:30.467: Output 'simple_file_output': Total drawn frames: 206
+16:43:30.467: ==== Recording Stop ================================================
+16:43:30.534: libfdk_aac encoder destroyed
+16:43:38.828: ---------------------------------
+16:43:38.828: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:43:38.828: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:43:38.828: 	rate_control: CQP
+16:43:38.828: 	bitrate:      0
+16:43:38.828: 	cqp:          23
+16:43:38.828: 	keyint:       250
+16:43:38.828: 	preset:       p5
+16:43:38.828: 	tuning:       hq
+16:43:38.828: 	multipass:    qres
+16:43:38.828: 	profile:      high
+16:43:38.828: 	width:        1920
+16:43:38.828: 	height:       1080
+16:43:38.828: 	b-frames:     2
+16:43:38.828: 	psycho-aq:    1
+16:43:38.828: 	GPU:          0
+16:43:38.828: 
+16:43:38.921: libfdk_aac encoder created
+16:43:38.921: libfdk_aac bitrate: 192, channels: 2
+16:43:38.923: ==== Recording Start ===============================================
+16:43:38.923: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-43-38.mkv'...
+16:43:38.925: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:43:40.770: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-43-38.mkv' stopped
+16:43:40.770: Output 'simple_file_output': stopping
+16:43:40.771: Output 'simple_file_output': Total frames output: 100
+16:43:40.771: Output 'simple_file_output': Total drawn frames: 111
+16:43:40.772: ==== Recording Stop ================================================
+16:43:40.831: libfdk_aac encoder destroyed
+16:44:45.057: ---------------------------------
+16:44:45.057: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:44:45.057: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:44:45.057: 	rate_control: CQP
+16:44:45.057: 	bitrate:      0
+16:44:45.057: 	cqp:          23
+16:44:45.057: 	keyint:       250
+16:44:45.057: 	preset:       p5
+16:44:45.057: 	tuning:       hq
+16:44:45.057: 	multipass:    qres
+16:44:45.057: 	profile:      high
+16:44:45.057: 	width:        1920
+16:44:45.057: 	height:       1080
+16:44:45.057: 	b-frames:     2
+16:44:45.057: 	psycho-aq:    1
+16:44:45.057: 	GPU:          0
+16:44:45.057: 
+16:44:45.161: libfdk_aac encoder created
+16:44:45.161: libfdk_aac bitrate: 192, channels: 2
+16:44:45.163: ==== Recording Start ===============================================
+16:44:45.163: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-44-45.mkv'...
+16:44:45.166: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:44:46.664: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-44-45.mkv' stopped
+16:44:46.664: Output 'simple_file_output': stopping
+16:44:46.664: Output 'simple_file_output': Total frames output: 78
+16:44:46.664: Output 'simple_file_output': Total drawn frames: 90
+16:44:46.665: ==== Recording Stop ================================================
+16:44:46.735: libfdk_aac encoder destroyed
+16:44:49.935: ---------------------------------
+16:44:49.936: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:44:49.936: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:44:49.936: 	rate_control: CQP
+16:44:49.936: 	bitrate:      0
+16:44:49.936: 	cqp:          23
+16:44:49.936: 	keyint:       250
+16:44:49.936: 	preset:       p5
+16:44:49.936: 	tuning:       hq
+16:44:49.936: 	multipass:    qres
+16:44:49.936: 	profile:      high
+16:44:49.936: 	width:        1920
+16:44:49.936: 	height:       1080
+16:44:49.936: 	b-frames:     2
+16:44:49.936: 	psycho-aq:    1
+16:44:49.936: 	GPU:          0
+16:44:49.936: 
+16:44:50.037: libfdk_aac encoder created
+16:44:50.037: libfdk_aac bitrate: 192, channels: 2
+16:44:50.039: ==== Recording Start ===============================================
+16:44:50.039: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-44-49.mkv'...
+16:44:50.041: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:44:52.298: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-44-49.mkv' stopped
+16:44:52.298: Output 'simple_file_output': stopping
+16:44:52.298: Output 'simple_file_output': Total frames output: 124
+16:44:52.298: Output 'simple_file_output': Total drawn frames: 136
+16:44:52.298: ==== Recording Stop ================================================
+16:44:52.369: libfdk_aac encoder destroyed
+16:45:23.510: ---------------------------------
+16:45:23.510: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:45:23.510: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:45:23.510: 	rate_control: CQP
+16:45:23.510: 	bitrate:      0
+16:45:23.510: 	cqp:          23
+16:45:23.510: 	keyint:       250
+16:45:23.510: 	preset:       p5
+16:45:23.510: 	tuning:       hq
+16:45:23.510: 	multipass:    qres
+16:45:23.510: 	profile:      high
+16:45:23.510: 	width:        1920
+16:45:23.510: 	height:       1080
+16:45:23.510: 	b-frames:     2
+16:45:23.510: 	psycho-aq:    1
+16:45:23.510: 	GPU:          0
+16:45:23.510: 
+16:45:23.612: libfdk_aac encoder created
+16:45:23.612: libfdk_aac bitrate: 192, channels: 2
+16:45:23.614: ==== Recording Start ===============================================
+16:45:23.614: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-45-23.mkv'...
+16:45:23.616: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:45:25.116: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-45-23.mkv' stopped
+16:45:25.116: Output 'simple_file_output': stopping
+16:45:25.116: Output 'simple_file_output': Total frames output: 78
+16:45:25.116: Output 'simple_file_output': Total drawn frames: 90
+16:45:25.117: ==== Recording Stop ================================================
+16:45:25.186: libfdk_aac encoder destroyed
+16:46:08.098: ---------------------------------
+16:46:08.098: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:46:08.098: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:46:08.098: 	rate_control: CQP
+16:46:08.098: 	bitrate:      0
+16:46:08.098: 	cqp:          23
+16:46:08.098: 	keyint:       250
+16:46:08.098: 	preset:       p5
+16:46:08.098: 	tuning:       hq
+16:46:08.098: 	multipass:    qres
+16:46:08.098: 	profile:      high
+16:46:08.098: 	width:        1920
+16:46:08.098: 	height:       1080
+16:46:08.098: 	b-frames:     2
+16:46:08.098: 	psycho-aq:    1
+16:46:08.098: 	GPU:          0
+16:46:08.098: 
+16:46:08.199: libfdk_aac encoder created
+16:46:08.200: libfdk_aac bitrate: 192, channels: 2
+16:46:08.201: ==== Recording Start ===============================================
+16:46:08.201: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-46-08.mkv'...
+16:46:08.204: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:46:09.398: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-46-08.mkv' stopped
+16:46:09.398: Output 'simple_file_output': stopping
+16:46:09.398: Output 'simple_file_output': Total frames output: 60
+16:46:09.398: Output 'simple_file_output': Total drawn frames: 72
+16:46:09.398: ==== Recording Stop ================================================
+16:46:09.469: libfdk_aac encoder destroyed
+16:46:45.506: ---------------------------------
+16:46:45.506: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:46:45.506: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:46:45.506: 	rate_control: CQP
+16:46:45.506: 	bitrate:      0
+16:46:45.506: 	cqp:          23
+16:46:45.506: 	keyint:       250
+16:46:45.506: 	preset:       p5
+16:46:45.506: 	tuning:       hq
+16:46:45.506: 	multipass:    qres
+16:46:45.506: 	profile:      high
+16:46:45.506: 	width:        1920
+16:46:45.506: 	height:       1080
+16:46:45.506: 	b-frames:     2
+16:46:45.506: 	psycho-aq:    1
+16:46:45.506: 	GPU:          0
+16:46:45.506: 
+16:46:45.609: libfdk_aac encoder created
+16:46:45.609: libfdk_aac bitrate: 192, channels: 2
+16:46:45.610: ==== Recording Start ===============================================
+16:46:45.610: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-46-45.mkv'...
+16:46:45.613: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:46:47.732: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-46-45.mkv' stopped
+16:46:47.732: Output 'simple_file_output': stopping
+16:46:47.732: Output 'simple_file_output': Total frames output: 115
+16:46:47.732: Output 'simple_file_output': Total drawn frames: 127
+16:46:47.733: ==== Recording Stop ================================================
+16:46:47.802: libfdk_aac encoder destroyed
+16:47:04.028: pulse-input: Stopped recording from 'alsa_input.usb-USB_Audio_Device_USB_Audio_Device_20200508V100-00.mono-fallback'
+16:47:04.028: pulse-input: Got 27589 packets with 33106800 frames
+16:47:04.028: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.84) 15.0.0'
+16:47:04.029: pulse-input: Audio format: s24le, 48000 Hz, 1 channels
+16:47:04.029: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+16:47:04.029: pulse-input: Started recording from 'alsa_input.usb-USB_Audio_Device_USB_Audio_Device_20200508V100-00.mono-fallback'
+16:47:06.702: ---------------------------------
+16:47:06.702: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:47:06.702: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:47:06.702: 	rate_control: CQP
+16:47:06.702: 	bitrate:      0
+16:47:06.702: 	cqp:          23
+16:47:06.702: 	keyint:       250
+16:47:06.702: 	preset:       p5
+16:47:06.702: 	tuning:       hq
+16:47:06.702: 	multipass:    qres
+16:47:06.702: 	profile:      high
+16:47:06.702: 	width:        1920
+16:47:06.702: 	height:       1080
+16:47:06.702: 	b-frames:     2
+16:47:06.702: 	psycho-aq:    1
+16:47:06.702: 	GPU:          0
+16:47:06.702: 
+16:47:06.801: libfdk_aac encoder created
+16:47:06.801: libfdk_aac bitrate: 192, channels: 2
+16:47:06.802: ==== Recording Start ===============================================
+16:47:06.802: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-47-06.mkv'...
+16:47:06.805: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:47:08.197: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-47-06.mkv' stopped
+16:47:08.198: Output 'simple_file_output': stopping
+16:47:08.198: Output 'simple_file_output': Total frames output: 72
+16:47:08.198: Output 'simple_file_output': Total drawn frames: 84
+16:47:08.199: ==== Recording Stop ================================================
+16:47:08.274: libfdk_aac encoder destroyed
+16:47:25.556: pulse-input: Stopped recording from 'easyeffects_source'
+16:47:25.556: pulse-input: Got 860 packets with 1032000 frames
+16:47:25.556: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.84) 15.0.0'
+16:47:25.556: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+16:47:25.557: pulse-input: Started recording from 'easyeffects_source'
+16:47:27.754: ---------------------------------
+16:47:27.754: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:47:27.754: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:47:27.754: 	rate_control: CQP
+16:47:27.754: 	bitrate:      0
+16:47:27.754: 	cqp:          23
+16:47:27.754: 	keyint:       250
+16:47:27.754: 	preset:       p5
+16:47:27.754: 	tuning:       hq
+16:47:27.754: 	multipass:    qres
+16:47:27.754: 	profile:      high
+16:47:27.754: 	width:        1920
+16:47:27.754: 	height:       1080
+16:47:27.754: 	b-frames:     2
+16:47:27.754: 	psycho-aq:    1
+16:47:27.754: 	GPU:          0
+16:47:27.754: 
+16:47:27.855: libfdk_aac encoder created
+16:47:27.855: libfdk_aac bitrate: 192, channels: 2
+16:47:27.857: ==== Recording Start ===============================================
+16:47:27.857: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-47-27.mkv'...
+16:47:27.861: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:47:29.881: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-47-27.mkv' stopped
+16:47:29.882: Output 'simple_file_output': stopping
+16:47:29.882: Output 'simple_file_output': Total frames output: 110
+16:47:29.882: Output 'simple_file_output': Total drawn frames: 122
+16:47:29.882: ==== Recording Stop ================================================
+16:47:29.951: libfdk_aac encoder destroyed
+16:48:01.815: ---------------------------------
+16:48:01.815: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:48:01.815: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:48:01.815: 	rate_control: CQP
+16:48:01.815: 	bitrate:      0
+16:48:01.815: 	cqp:          23
+16:48:01.815: 	keyint:       250
+16:48:01.815: 	preset:       p5
+16:48:01.815: 	tuning:       hq
+16:48:01.815: 	multipass:    qres
+16:48:01.815: 	profile:      high
+16:48:01.815: 	width:        1920
+16:48:01.815: 	height:       1080
+16:48:01.815: 	b-frames:     2
+16:48:01.815: 	psycho-aq:    1
+16:48:01.815: 	GPU:          0
+16:48:01.815: 
+16:48:01.937: libfdk_aac encoder created
+16:48:01.937: libfdk_aac bitrate: 192, channels: 2
+16:48:01.940: ==== Recording Start ===============================================
+16:48:01.940: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-48-01.mkv'...
+16:48:01.943: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:48:07.470: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-48-01.mkv' stopped
+16:48:07.470: Output 'simple_file_output': stopping
+16:48:07.470: Output 'simple_file_output': Total frames output: 320
+16:48:07.470: Output 'simple_file_output': Total drawn frames: 332
+16:48:07.470: ==== Recording Stop ================================================
+16:48:07.556: libfdk_aac encoder destroyed
+16:50:57.503: pulse-input: Stopped recording from 'default'
+16:50:57.504: pulse-input: Got 8476 packets with 10171200 frames
+16:50:57.504: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.84) 15.0.0'
+16:50:57.504: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+16:50:57.504: pulse-input: Started recording from 'alsa_input.usb-A4_tech_Corp._A4_tech_USB2.0_Camera-02.mono-fallback' (default)
+16:51:05.739: alsa-input: PCM 'default' rate set to 44100
+16:51:05.739: alsa-input: PCM 'default' channels set to 2
+16:51:05.764: User added source 'Audio Capture Device (ALSA)' (alsa_input_capture) to scene 'Scene'
+16:51:19.460: alsa-input: Failed to open 'front:CARD=Device,DEV=0': Device or resource busy
+16:51:20.460: alsa-input: Failed to open 'front:CARD=Device,DEV=0': Device or resource busy
+16:51:22.462: alsa-input: Failed to open 'front:CARD=Device,DEV=0': Device or resource busy
+16:51:23.759: alsa-input: PCM 'default' rate set to 44100
+16:51:23.759: alsa-input: PCM 'default' channels set to 2
+16:51:31.589: ---------------------------------
+16:51:31.589: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:51:31.589: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:51:31.589: 	rate_control: CQP
+16:51:31.589: 	bitrate:      0
+16:51:31.589: 	cqp:          23
+16:51:31.589: 	keyint:       250
+16:51:31.589: 	preset:       p5
+16:51:31.589: 	tuning:       hq
+16:51:31.589: 	multipass:    qres
+16:51:31.589: 	profile:      high
+16:51:31.589: 	width:        1920
+16:51:31.589: 	height:       1080
+16:51:31.589: 	b-frames:     2
+16:51:31.589: 	psycho-aq:    1
+16:51:31.589: 	GPU:          0
+16:51:31.589: 
+16:51:31.695: libfdk_aac encoder created
+16:51:31.695: libfdk_aac bitrate: 192, channels: 2
+16:51:31.698: ==== Recording Start ===============================================
+16:51:31.698: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-51-31.mkv'...
+16:51:31.702: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:51:32.847: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-51-31.mkv' stopped
+16:51:32.847: Output 'simple_file_output': stopping
+16:51:32.847: Output 'simple_file_output': Total frames output: 57
+16:51:32.847: Output 'simple_file_output': Total drawn frames: 69
+16:51:32.847: ==== Recording Stop ================================================
+16:51:32.901: libfdk_aac encoder destroyed
+16:55:02.480: ---------------------------------
+16:55:02.480: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:55:02.480: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:55:02.480: 	rate_control: CQP
+16:55:02.480: 	bitrate:      0
+16:55:02.480: 	cqp:          23
+16:55:02.480: 	keyint:       250
+16:55:02.480: 	preset:       p5
+16:55:02.480: 	tuning:       hq
+16:55:02.480: 	multipass:    qres
+16:55:02.480: 	profile:      high
+16:55:02.480: 	width:        1920
+16:55:02.480: 	height:       1080
+16:55:02.480: 	b-frames:     2
+16:55:02.480: 	psycho-aq:    1
+16:55:02.480: 	GPU:          0
+16:55:02.480: 
+16:55:02.580: libfdk_aac encoder created
+16:55:02.580: libfdk_aac bitrate: 192, channels: 2
+16:55:02.582: ==== Recording Start ===============================================
+16:55:02.582: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-55-02.mkv'...
+16:55:02.585: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:55:03.802: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-55-02.mkv' stopped
+16:55:03.802: Output 'simple_file_output': stopping
+16:55:03.802: Output 'simple_file_output': Total frames output: 61
+16:55:03.802: Output 'simple_file_output': Total drawn frames: 73
+16:55:03.803: ==== Recording Stop ================================================
+16:55:03.874: libfdk_aac encoder destroyed
+16:55:09.884: ---------------------------------
+16:55:09.884: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:55:09.884: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:55:09.884: 	rate_control: CQP
+16:55:09.884: 	bitrate:      0
+16:55:09.884: 	cqp:          23
+16:55:09.884: 	keyint:       250
+16:55:09.884: 	preset:       p5
+16:55:09.884: 	tuning:       hq
+16:55:09.884: 	multipass:    qres
+16:55:09.884: 	profile:      high
+16:55:09.884: 	width:        1920
+16:55:09.884: 	height:       1080
+16:55:09.884: 	b-frames:     2
+16:55:09.884: 	psycho-aq:    1
+16:55:09.884: 	GPU:          0
+16:55:09.884: 
+16:55:09.988: libfdk_aac encoder created
+16:55:09.988: libfdk_aac bitrate: 192, channels: 2
+16:55:09.990: ==== Recording Start ===============================================
+16:55:09.990: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-55-09.mkv'...
+16:55:09.995: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:55:14.233: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-55-09.mkv' stopped
+16:55:14.233: Output 'simple_file_output': stopping
+16:55:14.233: Output 'simple_file_output': Total frames output: 243
+16:55:14.233: Output 'simple_file_output': Total drawn frames: 255
+16:55:14.236: ==== Recording Stop ================================================
+16:55:14.307: libfdk_aac encoder destroyed
+16:55:36.452: ---------------------------------
+16:55:36.452: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:55:36.452: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:55:36.452: 	rate_control: CQP
+16:55:36.452: 	bitrate:      0
+16:55:36.452: 	cqp:          23
+16:55:36.452: 	keyint:       250
+16:55:36.452: 	preset:       p5
+16:55:36.452: 	tuning:       hq
+16:55:36.452: 	multipass:    qres
+16:55:36.452: 	profile:      high
+16:55:36.452: 	width:        1920
+16:55:36.452: 	height:       1080
+16:55:36.452: 	b-frames:     2
+16:55:36.452: 	psycho-aq:    1
+16:55:36.452: 	GPU:          0
+16:55:36.452: 
+16:55:36.555: libfdk_aac encoder created
+16:55:36.555: libfdk_aac bitrate: 192, channels: 2
+16:55:36.557: ==== Recording Start ===============================================
+16:55:36.557: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-55-36.mkv'...
+16:55:36.561: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:55:42.417: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-55-36.mkv' stopped
+16:55:42.417: Output 'simple_file_output': stopping
+16:55:42.417: Output 'simple_file_output': Total frames output: 340
+16:55:42.417: Output 'simple_file_output': Total drawn frames: 352
+16:55:42.418: ==== Recording Stop ================================================
+16:55:42.493: libfdk_aac encoder destroyed
+16:55:53.021: ---------------------------------
+16:55:53.021: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:55:53.021: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:55:53.021: 	rate_control: CQP
+16:55:53.021: 	bitrate:      0
+16:55:53.021: 	cqp:          23
+16:55:53.021: 	keyint:       250
+16:55:53.021: 	preset:       p5
+16:55:53.021: 	tuning:       hq
+16:55:53.021: 	multipass:    qres
+16:55:53.021: 	profile:      high
+16:55:53.021: 	width:        1920
+16:55:53.021: 	height:       1080
+16:55:53.021: 	b-frames:     2
+16:55:53.021: 	psycho-aq:    1
+16:55:53.021: 	GPU:          0
+16:55:53.021: 
+16:55:53.124: libfdk_aac encoder created
+16:55:53.124: libfdk_aac bitrate: 192, channels: 2
+16:55:53.126: ==== Recording Start ===============================================
+16:55:53.126: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-55-53.mkv'...
+16:55:53.129: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:56:00.270: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-55-53.mkv' stopped
+16:56:00.270: Output 'simple_file_output': stopping
+16:56:00.270: Output 'simple_file_output': Total frames output: 417
+16:56:00.270: Output 'simple_file_output': Total drawn frames: 428
+16:56:00.276: ==== Recording Stop ================================================
+16:56:00.345: libfdk_aac encoder destroyed
+16:56:10.592: ---------------------------------
+16:56:10.592: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:56:10.592: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:56:10.592: 	rate_control: CQP
+16:56:10.592: 	bitrate:      0
+16:56:10.592: 	cqp:          23
+16:56:10.592: 	keyint:       250
+16:56:10.592: 	preset:       p5
+16:56:10.592: 	tuning:       hq
+16:56:10.592: 	multipass:    qres
+16:56:10.592: 	profile:      high
+16:56:10.592: 	width:        1920
+16:56:10.592: 	height:       1080
+16:56:10.592: 	b-frames:     2
+16:56:10.592: 	psycho-aq:    1
+16:56:10.592: 	GPU:          0
+16:56:10.592: 
+16:56:10.697: libfdk_aac encoder created
+16:56:10.697: libfdk_aac bitrate: 192, channels: 2
+16:56:10.699: ==== Recording Start ===============================================
+16:56:10.699: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-56-10.mkv'...
+16:56:10.701: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:56:12.002: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-56-10.mkv' stopped
+16:56:12.002: Output 'simple_file_output': stopping
+16:56:12.002: Output 'simple_file_output': Total frames output: 67
+16:56:12.002: Output 'simple_file_output': Total drawn frames: 78
+16:56:12.003: ==== Recording Stop ================================================
+16:56:12.076: libfdk_aac encoder destroyed
+16:56:15.840: ---------------------------------
+16:56:15.840: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+16:56:15.840: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+16:56:15.840: 	rate_control: CQP
+16:56:15.840: 	bitrate:      0
+16:56:15.840: 	cqp:          23
+16:56:15.840: 	keyint:       250
+16:56:15.840: 	preset:       p5
+16:56:15.840: 	tuning:       hq
+16:56:15.840: 	multipass:    qres
+16:56:15.840: 	profile:      high
+16:56:15.840: 	width:        1920
+16:56:15.840: 	height:       1080
+16:56:15.840: 	b-frames:     2
+16:56:15.840: 	psycho-aq:    1
+16:56:15.840: 	GPU:          0
+16:56:15.840: 
+16:56:15.944: libfdk_aac encoder created
+16:56:15.944: libfdk_aac bitrate: 192, channels: 2
+16:56:15.946: ==== Recording Start ===============================================
+16:56:15.946: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/quitaxd/2023-11-15 16-56-15.mkv'...
+16:56:15.948: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+16:56:18.784: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/quitaxd/2023-11-15 16-56-15.mkv' stopped
+16:56:18.784: Output 'simple_file_output': stopping
+16:56:18.784: Output 'simple_file_output': Total frames output: 158
+16:56:18.784: Output 'simple_file_output': Total drawn frames: 170
+16:56:18.786: ==== Recording Stop ================================================
+16:56:18.863: libfdk_aac encoder destroyed
+16:56:47.803: ==== Shutting down ==================================================
+16:56:47.841: pulse-input: Stopped recording from 'easyeffects_sink.monitor'
+16:56:47.841: pulse-input: Got 50893 packets with 61071600 frames
+16:56:47.842: pulse-input: Stopped recording from 'alsa_input.usb-A4_tech_Corp._A4_tech_USB2.0_Camera-02.mono-fallback'
+16:56:47.842: pulse-input: Got 14009 packets with 16810800 frames
+16:56:47.870: All scene data cleared
+16:56:47.870: ------------------------------------------------
+16:56:47.931: [Scripting] Total detached callbacks: 0
+16:56:47.932: Freeing OBS context data
+16:56:47.943: == Profiler Results =============================
+16:56:47.943: run_program_init: 511.941 ms
+16:56:47.943:  ┣OBSApp::AppInit: 3.219 ms
+16:56:47.943:  ┃ ┗OBSApp::InitLocale: 0.648 ms
+16:56:47.943:  ┗OBSApp::OBSInit: 474.733 ms
+16:56:47.943:    ┣obs_startup: 2.471 ms
+16:56:47.943:    ┗OBSBasic::OBSInit: 428.913 ms
+16:56:47.943:      ┣OBSBasic::InitBasicConfig: 0.106 ms
+16:56:47.943:      ┣OBSBasic::ResetAudio: 0.24 ms
+16:56:47.943:      ┣OBSBasic::ResetVideo: 58.339 ms
+16:56:47.943:      ┃ ┗obs_init_graphics: 56.838 ms
+16:56:47.943:      ┃   ┗shader compilation: 27.196 ms
+16:56:47.943:      ┣OBSBasic::InitOBSCallbacks: 0.004 ms
+16:56:47.943:      ┣OBSBasic::InitHotkeys: 0.033 ms
+16:56:47.943:      ┣obs_load_all_modules2: 261.452 ms
+16:56:47.943:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+16:56:47.943:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+16:56:47.943:      ┃ ┣obs_init_module(decklink.so): 0.11 ms
+16:56:47.943:      ┃ ┣obs_init_module(frontend-tools.so): 77.831 ms
+16:56:47.943:      ┃ ┣obs_init_module(image-source.so): 0.009 ms
+16:56:47.943:      ┃ ┣obs_init_module(linux-alsa.so): 0.002 ms
+16:56:47.943:      ┃ ┣obs_init_module(linux-capture.so): 0 ms
+16:56:47.943:      ┃ ┣obs_init_module(linux-jack.so): 0.002 ms
+16:56:47.943:      ┃ ┣obs_init_module(linux-pipewire.so): 6.357 ms
+16:56:47.943:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.004 ms
+16:56:47.943:      ┃ ┣obs_init_module(linux-v4l2.so): 4.212 ms
+16:56:47.943:      ┃ ┣obs_init_module(obs-ffmpeg.so): 1.008 ms
+16:56:47.943:      ┃ ┃ ┗nvenc_check: 0.662 ms
+16:56:47.943:      ┃ ┣obs_init_module(obs-filters.so): 0.035 ms
+16:56:47.943:      ┃ ┣obs_init_module(obs-libfdk.so): 0.001 ms
+16:56:47.943:      ┃ ┣obs_init_module(obs-outputs.so): 0.003 ms
+16:56:47.943:      ┃ ┣obs_init_module(obs-qsv11.so): 0.144 ms
+16:56:47.943:      ┃ ┣obs_init_module(obs-transitions.so): 0.011 ms
+16:56:47.943:      ┃ ┣obs_init_module(obs-vst.so): 0.004 ms
+16:56:47.943:      ┃ ┣obs_init_module(obs-x264.so): 0.003 ms
+16:56:47.943:      ┃ ┣obs_init_module(rtmp-services.so): 1.062 ms
+16:56:47.943:      ┃ ┗obs_init_module(text-freetype2.so): 0.013 ms
+16:56:47.943:      ┣OBSBasic::InitService: 1.015 ms
+16:56:47.943:      ┣OBSBasic::ResetOutputs: 0.19 ms
+16:56:47.943:      ┣OBSBasic::CreateHotkeys: 0.024 ms
+16:56:47.943:      ┣OBSBasic::InitPrimitives: 0.241 ms
+16:56:47.943:      ┗OBSBasic::Load: 56.096 ms
+16:56:47.943: obs_hotkey_thread(25 ms): min=0 ms, median=0 ms, max=0.615 ms, 99th percentile=0.002 ms, 100% below 25 ms
+16:56:47.943: audio_thread(Audio): min=0.011 ms, median=0.085 ms, max=16 ms, 99th percentile=0.628 ms
+16:56:47.943:  ┗receive_audio: min=0.001 ms, median=0.303 ms, max=15.924 ms, 99th percentile=0.673 ms, 0.095089 calls per parent call
+16:56:47.943:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=0.138 ms, 99th percentile=0.005 ms
+16:56:47.943:    ┗do_encode: min=0.081 ms, median=0.301 ms, max=15.92 ms, 99th percentile=0.666 ms
+16:56:47.943:      ┣encode(simple_aac_recording0): min=0.078 ms, median=0.295 ms, max=2.607 ms, 99th percentile=0.548 ms
+16:56:47.943:      ┗send_packet: min=0.001 ms, median=0.004 ms, max=15.634 ms, 99th percentile=0.039 ms
+16:56:47.943: obs_graphics_thread(16.6667 ms): min=0.197 ms, median=0.672 ms, max=51.828 ms, 99th percentile=5.204 ms, 99.8704% below 16.667 ms
+16:56:47.943:  ┣tick_sources: min=0 ms, median=0.007 ms, max=4.305 ms, 99th percentile=0.043 ms
+16:56:47.943:  ┣output_frame: min=0.069 ms, median=0.137 ms, max=20.324 ms, 99th percentile=1.523 ms
+16:56:47.943:  ┃ ┣gs_context(video->graphics): min=0.068 ms, median=0.136 ms, max=20.322 ms, 99th percentile=0.581 ms
+16:56:47.943:  ┃ ┃ ┣render_video: min=0.032 ms, median=0.074 ms, max=12.125 ms, 99th percentile=0.317 ms
+16:56:47.943:  ┃ ┃ ┃ ┣render_main_texture: min=0.025 ms, median=0.06 ms, max=12.031 ms, 99th percentile=0.227 ms
+16:56:47.943:  ┃ ┃ ┃ ┣render_convert_texture: min=0.065 ms, median=0.078 ms, max=3.693 ms, 99th percentile=0.228 ms, 0.0933848 calls per parent call
+16:56:47.943:  ┃ ┃ ┃ ┗stage_output_texture: min=0.028 ms, median=0.035 ms, max=0.985 ms, 99th percentile=0.098 ms, 0.0933848 calls per parent call
+16:56:47.943:  ┃ ┃ ┣gs_flush: min=0.003 ms, median=0.008 ms, max=5.604 ms, 99th percentile=0.032 ms
+16:56:47.943:  ┃ ┃ ┗download_frame: min=0 ms, median=0.004 ms, max=0.083 ms, 99th percentile=0.013 ms, 0.0933848 calls per parent call
+16:56:47.943:  ┃ ┗output_video_data: min=0.574 ms, median=0.871 ms, max=5.907 ms, 99th percentile=1.701 ms, 0.092953 calls per parent call
+16:56:47.943:  ┗render_displays: min=0.029 ms, median=0.368 ms, max=50.989 ms, 99th percentile=4.358 ms
+16:56:47.943: video_thread(video): min=1.879 ms, median=2.58 ms, max=11.476 ms, 99th percentile=4.781 ms
+16:56:47.943:  ┗receive_video: min=1.877 ms, median=2.578 ms, max=11.474 ms, 99th percentile=4.779 ms
+16:56:47.943:    ┗do_encode: min=1.875 ms, median=2.577 ms, max=11.472 ms, 99th percentile=4.776 ms
+16:56:47.943:      ┣encode(simple_video_recording): min=1.862 ms, median=2.562 ms, max=11.042 ms, 99th percentile=4.507 ms
+16:56:47.943:      ┗send_packet: min=0.002 ms, median=0.01 ms, max=7.706 ms, 99th percentile=0.045 ms
+16:56:47.943: =================================================
+16:56:47.943: == Profiler Time Between Calls ==================
+16:56:47.943: obs_hotkey_thread(25 ms): min=25.011 ms, median=25.08 ms, max=31.55 ms, 99.0979% within ±2% of 25 ms (0% lower, 0.902054% higher)
+16:56:47.943: obs_graphics_thread(16.6667 ms): min=3.715 ms, median=16.667 ms, max=51.873 ms, 97.8839% within ±2% of 16.667 ms (1.04039% lower, 1.07572% higher)
+16:56:47.943: =================================================
+16:56:47.973: Number of memory leaks: 0
