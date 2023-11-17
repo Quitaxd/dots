@@ -1,0 +1,10 @@
+[Configuration]
+LastActiveMode=THUNAR_RENAMER_MODE_EXTENSION
+LastActiveRenamer=ThunarSbrReplaceRenamer
+
+[ThunarSbrReplaceRenamer]
+CaseSensitive=FALSE
+Replacement=mp3
+Pattern=m4a
+Regexp=FALSE
+
