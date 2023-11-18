@@ -3,7 +3,7 @@
 -- Add any additional autocmds here
 
 -- Turn off paste mode when leaving insert-mode
-vim.api.nvim_create_autocmd("InsertLeave", {
-  pattern = "*",
-  command = "set nopaste",
-})
+--vim.api.nvim_create_autocmd("InsertLeave", {
+--  pattern = "*",
+--  command = "set nopaste",
+--})
